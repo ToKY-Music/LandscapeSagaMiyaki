@@ -3,11 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>風景再現描画</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Landscape Drawing</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #dbe9f5;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
 </head>
 <body>
-  <canvas id="landscapeCanvas"></canvas>
-  <script src="script.js"></script>
 </body>
+<script src="sketch.js"></script>
 </html>
